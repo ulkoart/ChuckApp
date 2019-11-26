@@ -14,6 +14,7 @@
 		CE4CC455231007A3000A222B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CC453231007A3000A222B /* LaunchScreen.storyboard */; };
 		CE4CC460231007A3000A222B /* ChuckAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC45F231007A3000A222B /* ChuckAppTests.swift */; };
 		CE4CC46B231007A3000A222B /* ChuckAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC46A231007A3000A222B /* ChuckAppUITests.swift */; };
+		CE4CC47923100AB4000A222B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CC47823100AB4000A222B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE4CC466231007A3000A222B /* ChuckAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4CC46A231007A3000A222B /* ChuckAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckAppUITests.swift; sourceTree = "<group>"; };
 		CE4CC46C231007A3000A222B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4CC47823100AB4000A222B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CE4CC4492310079B000A222B /* ChuckApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE4CC47823100AB4000A222B /* Model.swift */,
 				CE4CC44A2310079B000A222B /* AppDelegate.swift */,
 				CE4CC44C2310079B000A222B /* ViewController.swift */,
 				CE4CC44E2310079B000A222B /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4CC47923100AB4000A222B /* Model.swift in Sources */,
 				CE4CC44D2310079B000A222B /* ViewController.swift in Sources */,
 				CE4CC44B2310079B000A222B /* AppDelegate.swift in Sources */,
 			);
@@ -431,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = ChuckApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = ChuckApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

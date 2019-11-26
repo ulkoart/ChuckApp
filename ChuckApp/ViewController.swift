@@ -10,16 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelJokeText: UILabel!
+    @IBAction func pushRefreshAction(_ sender: Any) {
+        let model = Model()
+        labelJokeText.text = model.loadJoke()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let model = Model()
+        labelJokeText.text = model.loadJoke()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-
